@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Performance Benchmark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ Browser Speed Test</h1>
+        <p>Click below to benchmark your browser's CPU & RAM performance.</p>
+        
+        <button id="runTest">Run Benchmark</button>
+        
+        <div id="results" class="hidden">
+            <h2>Your Score: <span id="score">0</span></h2>
+            <p id="feedback"></p>
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+        </div>
+
+        <div id="tips" class="hidden">
+            <h3>💡 Tips to Improve Performance</h3>
+            <ul>
+                <li>Close unused tabs/extensions</li>
+                <li>Update your browser</li>
+                <li>Enable hardware acceleration</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
